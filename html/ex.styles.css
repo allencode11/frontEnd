@@ -1,0 +1,29 @@
+html {
+    width: 100%;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 120px 120px 60px 120px;
+}
+
+.btn {
+    text-align: center;
+    padding-top: 7px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #0080ff;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+#ex1, #ex2 {
+    position: relative;
+    left: 40%;
+}
