@@ -1,0 +1,59 @@
+html {
+    width: 100%;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 120px 120px 60px 120px;
+}
+
+.btn {
+    text-align: center;
+    padding-top: 7px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #0080ff;
+    color: white;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#ex1, #ex2, #ex3 {
+    position: relative;
+    left: 40%;
+}
+
+.block {
+    background-color: rgba(0,75, 100, 0.65);
+    border: 2px solid blue;
+    padding: 10px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.inline_elements {
+    height: 30px;
+    padding-top: 10px;
+}
+
+.inline {
+    background-color: yellow;
+    border: 2px solid red;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.inline_block {
+    display: inline-block;
+    background-color: rgba(0 ,100, 25, 0.45);
+    border: 2px solid green;
+    padding: 10px;
+    width: 150px;
+    margin-right: 10px;
+}
