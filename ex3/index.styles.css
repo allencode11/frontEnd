@@ -27,6 +27,11 @@
     position: relative;
 }
 
+.titleWithoutAligning {
+    font-size: 20px;
+    font-weight: 600;
+}
+
 #box_four {
     border: 3px solid red;
     width: 400px;
