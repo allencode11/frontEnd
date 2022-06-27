@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 50px 120px 50px 120px;
+}
+
+.btn {
+    text-align: center;
+    padding-top: 7px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #0080ff;
+    color: white;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.template_form {
+    border: 1px solid black;
+    margin: auto;
+    width: 800px;
+    height: 610px;
+}
+
+#header {
+    background-color: rgba(179,214,255,255);
+    width: 100%;
+    height: 72px;
+}
+
+#footer {
+    background-color: rgba(215,231,255,255);
+    width: 100%;
+    padding-top: 20px;
+}
+
+.item_box {
+    display: inline-block;
+    background-color: rgba(179,214,255,255);
+    width: 245px;
+    height: 75px;
+    margin: 0px 0px 15px 15px;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#pink_box {
+    display: inline-block;
+    background-color: rgba(240,154,157,255);
+    width: 150px;
+    height: 200px;
+}
+
+#yellow_box {
+    display: inline-block;
+    background-color: rgba(245,207,141,255);
+    width: 350px;
+    margin-right: 100px;
+    height: 300px;
+    padding: 15px;
+}
+
+#black_box {
+    display: inline-block;
+    border: 1px solid black;
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+.text {
+    margin-top: 15px;
+}
+/*Template 2*/
+.border_r {
+    border-right: 1px solid white;
+}
+
+.border_b {
+    border-bottom: 1px solid white;
+}
+
+.border_t {
+    border-top: 1px solid white;
+}
+
+.bk_darker {
+    background-color: #202145;
+}
+
+.bk_dark {
+    background-color: #303357;
+}
+
+.bc_white_2 {
+    border: 7px solid white;
+    display: flex;
+    flex-direction: row;
+}
+
+.template_form_2 {
+    margin: auto;
+    width: 617px;
+    height: 315px;
+    border: 20px solid #202145;
+}
+.small_box {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fl_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.large_cub {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small_cub {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color_white {
+    color: white;
+}
+
+.fl_clo {
+    display: flex;
+    flex-direction: column;
+}
